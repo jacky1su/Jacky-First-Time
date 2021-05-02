@@ -1,0 +1,201 @@
+body {
+	/*colour picker*/
+	background-color: #f5aeed;
+	/*google fonts*/
+	font-family: 'Righteous', cursive;
+
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	justify-content: space-around;
+}
+
+nav {
+	color: black;
+	background-color: lightpink;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+a {
+	color: black;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: lightblue;
+	font-size: 2em;
+}
+
+header {
+	color: black;
+	background-color: lightgreen;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 64px;
+	margin: 0;
+}
+
+header h2 {
+	font-size: 40px;
+	margin: 0;
+	color: #F45B69;
+	/* Make all of the characters to uppercase*/
+	text-transform: uppercase;
+}
+
+header h3 {
+	font-size: 16px;
+	margin: 0;
+	color: #5E616E;
+}
+
+header img {
+	width: 320px;
+	height: 320px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin-left: 40px;
+}
+
+#about {
+	color: black;
+	background-color: lightpink;
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about > div {
+	max-width: 640px;
+	/* padding: top right bottom left */
+	padding: 16px 40px 16px 40px;
+
+	/*a in rgba is the alpha channel that specifies the opacity for a color*/
+	background-color: lightpink;
+
+	/* Define the text color in this div box*/
+	color: black;
+}
+
+#portfolio {
+	color: black;
+	background-color: lightgreen;
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+
+#portfolio div {
+	color: black;
+	background-color: lightgreen;
+	margin: 100px;
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#contact {
+	color: black;
+	background-color: lightpink;
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact {
+	color: black;
+	background-color: lightpink;
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+}
+
+#contact h2 {
+	color: #F45B69;
+	text-transform: uppercase;
+}
+
+#contact form {
+	max-width: 640px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact form>* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 120px;
+	resize: none;
+}
+
+#contact button {
+	width: 50%;
+	background-color: #F45B69;
+	color: white;
+
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+footer {
+	color: black;
+	background-color: lightgreen;
+	height: 120px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer upbutton { 
+	/*position = fixed;*/
+	bottom: 30px;
+	right: 30px;
+	
+	
+}
